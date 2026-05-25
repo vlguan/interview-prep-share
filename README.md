@@ -56,3 +56,28 @@ This repo is designed to work with [Claude Code](https://docs.claude.com/en/docs
 - `/review [filepath]` — review a solution via Socratic questioning, don't rewrite
 - `/rrk [scenario]` — run an RRK mock (Claude plays interviewer or coach)
 - `/redo` — surface a problem from the redo queue that's due
+- `/scrape [company]` — scrape top-asked LeetCode problems for a company and write a ranked list to `leetcode/<company>-tagged.md`
+
+## Scrape setup
+
+The `/scrape` command pulls company-tagged problems from GitHub, LeetCode Discuss, and LintCode, then ranks them by frequency. It requires a Python venv with a headless browser for the LeetCode Discuss source.
+
+```bash
+python3 -m venv venv
+venv/bin/pip install -r requirements.txt
+venv/bin/playwright install
+```
+
+Then use it via Claude Code:
+
+```
+/scrape google
+```
+
+Or run directly:
+
+```bash
+venv/bin/python scripts/scrape_company.py google
+```
+
+Output is written to `leetcode/google-tagged.md` (or whichever company slug you pass).

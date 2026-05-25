@@ -1,0 +1,6 @@
+scrapling
+playwright
+browserforge
+msgspec
+requests
+pytest
