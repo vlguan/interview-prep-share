@@ -9,10 +9,10 @@ Curated list of Google FDE-relevant Blind 75 mediums. Strike through (`~~ ~~`) w
 
 ## Two Pointers
 - [ ] 11 — Container With Most Water
-- [x] 15 — 3Sum
+- [ ] 15 — 3Sum
 
 ## Sliding Window
-- [x] 3 — Longest Substring Without Repeating Characters
+- [ ] 3 — Longest Substring Without Repeating Characters
 - [ ] 424 — Longest Repeating Character Replacement
 
 ## Stack
@@ -21,7 +21,7 @@ Curated list of Google FDE-relevant Blind 75 mediums. Strike through (`~~ ~~`) w
 - [ ] 739 — Daily Temperatures
 
 ## Binary Search
-- [x] 33 — Search in Rotated Sorted Array
+- [ ] 33 — Search in Rotated Sorted Array
 - [ ] 153 — Find Minimum in Rotated Sorted Array
 
 ## Linked Lists
@@ -37,7 +37,7 @@ Curated list of Google FDE-relevant Blind 75 mediums. Strike through (`~~ ~~`) w
 - [ ] 105 — Construct Binary Tree from Preorder and Inorder Traversal
 
 ## Graphs
-- [x] 200 — Number of Islands
+- [ ] 200 — Number of Islands
 - [ ] 133 — Clone Graph
 - [ ] 417 — Pacific Atlantic Water Flow
 - [ ] 207 — Course Schedule
@@ -57,10 +57,6 @@ Curated list of Google FDE-relevant Blind 75 mediums. Strike through (`~~ ~~`) w
 - [ ] 300 — Longest Increasing Subsequence
 - [ ] 62 — Unique Paths
 - [ ] 1143 — Longest Common Subsequence
-- [x] 139 — Word Break
+- [ ] 139 — Word Break
 
-## Already solved (from rubber duck sessions)
-- [x] 128 — Longest Consecutive Sequence
-- [x] 1 — Two Sum
-- [x] 268 — Missing Number
-- [x] 647 — Palindromic Substrings
+
